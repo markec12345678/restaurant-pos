@@ -68,6 +68,28 @@ import {
   REPORTS_PRICE_ELASTICITY,
   REPORTS_PROMO_ABUSE,
   REPORTS_MENU_PAIRING,
+  REPORTS_WEATHER_IMPACT,
+  REPORTS_PEAK_PRICING,
+  REPORTS_TABLE_UTILIZATION,
+  REPORTS_OVERTIME_PREDICTION,
+  REPORTS_LOYALTY_ROI,
+  REPORTS_PROCUREMENT,
+  REPORTS_MENU_ROTATION,
+  REPORTS_SERVER_COACH,
+  REPORTS_ALLERGEN_RISK,
+  REPORTS_OVERBOOKING,
+  REPORTS_RESERVATION_CASCADE,
+  REPORTS_VIBE_OPTIMIZER,
+  REPORTS_ENERGY_VAMPIRE,
+  REPORTS_REVIEW_RESPONSE,
+  REPORTS_SOCIAL_CONTENT,
+  REPORTS_CATERING_OPTIMIZER,
+  REPORTS_EQUIPMENT_MAINTENANCE,
+  REPORTS_MILESTONE_CAMPAIGN,
+  REPORTS_SCHEDULE_PREFERENCE,
+  REPORTS_FLOOR_PLAN_OPTIMIZER,
+  REPORTS_ONLINE_FRAUD_DETECTOR,
+  REPORTS_RECIPE_SCALING,
   REPORTS_AUDIT,
   REPORTS_CASH_CLOSING,
   REPORTS_CONSUMPTION,
@@ -228,6 +250,28 @@ import {
   PriceElasticityScreen,
   PromoAbuseScreen,
   MenuPairingScreen,
+  WeatherImpactScreen,
+  PeakPricingScreen,
+  TableUtilizationScreen,
+  OvertimePredictionScreen,
+  LoyaltyRoiScreen,
+  ProcurementScreen,
+  MenuRotationScreen,
+  ServerCoachScreen,
+  AllergenRiskScreen,
+  OverbookingScreen,
+  ReservationCascadeScreen,
+  VibeOptimizerScreen,
+  EnergyVampireScreen,
+  ReviewResponseScreen,
+  SocialContentScreen,
+  CateringOptimizerScreen,
+  EquipmentMaintenanceScreen,
+  MilestoneCampaignScreen,
+  SchedulePreferenceScreen,
+  FloorPlanOptimizerScreen,
+  OnlineFraudDetectorScreen,
+  RecipeScalingScreen,
   TablesideScreen,
 } from "@/routes/lazy-screens.ts";
 
@@ -315,6 +359,28 @@ export const AppRoutes = () => (
         <Route path={REPORTS_PRICE_ELASTICITY} element={<PriceElasticityScreen/>}/>
         <Route path={REPORTS_PROMO_ABUSE} element={<PromoAbuseScreen/>}/>
         <Route path={REPORTS_MENU_PAIRING} element={<MenuPairingScreen/>}/>
+        <Route path={REPORTS_WEATHER_IMPACT} element={<WeatherImpactScreen/>}/>
+        <Route path={REPORTS_PEAK_PRICING} element={<PeakPricingScreen/>}/>
+        <Route path={REPORTS_TABLE_UTILIZATION} element={<TableUtilizationScreen/>}/>
+        <Route path={REPORTS_OVERTIME_PREDICTION} element={<OvertimePredictionScreen/>}/>
+        <Route path={REPORTS_LOYALTY_ROI} element={<LoyaltyRoiScreen/>}/>
+        <Route path={REPORTS_PROCUREMENT} element={<ProcurementScreen/>}/>
+        <Route path={REPORTS_MENU_ROTATION} element={<MenuRotationScreen/>}/>
+        <Route path={REPORTS_SERVER_COACH} element={<ServerCoachScreen/>}/>
+        <Route path={REPORTS_ALLERGEN_RISK} element={<AllergenRiskScreen/>}/>
+        <Route path={REPORTS_OVERBOOKING} element={<OverbookingScreen/>}/>
+        <Route path={REPORTS_RESERVATION_CASCADE} element={<ReservationCascadeScreen/>}/>
+        <Route path={REPORTS_VIBE_OPTIMIZER} element={<VibeOptimizerScreen/>}/>
+        <Route path={REPORTS_ENERGY_VAMPIRE} element={<EnergyVampireScreen/>}/>
+        <Route path={REPORTS_REVIEW_RESPONSE} element={<ReviewResponseScreen/>}/>
+        <Route path={REPORTS_SOCIAL_CONTENT} element={<SocialContentScreen/>}/>
+        <Route path={REPORTS_CATERING_OPTIMIZER} element={<CateringOptimizerScreen/>}/>
+        <Route path={REPORTS_EQUIPMENT_MAINTENANCE} element={<EquipmentMaintenanceScreen/>}/>
+        <Route path={REPORTS_MILESTONE_CAMPAIGN} element={<MilestoneCampaignScreen/>}/>
+        <Route path={REPORTS_SCHEDULE_PREFERENCE} element={<SchedulePreferenceScreen/>}/>
+        <Route path={REPORTS_FLOOR_PLAN_OPTIMIZER} element={<FloorPlanOptimizerScreen/>}/>
+        <Route path={REPORTS_ONLINE_FRAUD_DETECTOR} element={<OnlineFraudDetectorScreen/>}/>
+        <Route path={REPORTS_RECIPE_SCALING} element={<RecipeScalingScreen/>}/>
         <Route path={REPORTS_PRODUCT_HOURLY} element={<ProductHourlyReport/>}/>
         <Route path={REPORTS_PRODUCT_LIST} element={<ProductListReport/>}/>
         <Route path={REPORTS_PRODUCT_MIX_SUMMARY} element={<ProductMixSummaryReport/>}/>
